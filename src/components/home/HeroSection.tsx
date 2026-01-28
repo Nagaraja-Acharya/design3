@@ -12,7 +12,7 @@ export default function HeroSection() {
         <img
           src={heroImage}
           alt="Children walking to school in a Karnataka village at sunrise"
-          className="w-full h-full object-cover object-center object-[center_10%]"
+          className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-earth-brown/80 via-earth-brown/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/60 via-transparent to-earth-brown/20" />
