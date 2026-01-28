@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/rishabshettyofficial_1768970461589.jpg";
+import heroImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_5.jpg";
 
 export default function HeroSection() {
   return (
@@ -12,7 +12,7 @@ export default function HeroSection() {
         <img
           src={heroImage}
           alt="Children walking to school in a Karnataka village at sunrise"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center object-[center_10%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-earth-brown/80 via-earth-brown/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/60 via-transparent to-earth-brown/20" />
@@ -89,25 +89,6 @@ export default function HeroSection() {
           </motion.div>
         </div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
-      >
-        <div className="flex flex-col items-center gap-2 text-chalk/60">
-          <span className="text-xs tracking-wider uppercase">Scroll to explore</span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-            className="w-6 h-10 rounded-full border-2 border-chalk/30 flex justify-center pt-2"
-          >
-            <div className="w-1.5 h-3 bg-chalk/60 rounded-full" />
-          </motion.div>
-        </div>
-      </motion.div>
     </section>
   );
 }

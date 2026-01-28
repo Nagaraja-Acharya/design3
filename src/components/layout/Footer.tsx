@@ -140,7 +140,7 @@ export default function Footer() {
               </a>
               <span className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                Karnataka, India
+                No 290/2, 2nd floor, Lakshmi Arcade, Siddaiah road, Bangalore 560027
               </span>
             </div>
             <p className="text-sm text-chalk/60">

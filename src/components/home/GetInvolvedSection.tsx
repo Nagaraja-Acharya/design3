@@ -41,7 +41,7 @@ export default function GetInvolvedSection() {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-terracotta/10 organic-blob-2 blur-3xl" />
       
       {/* Kannada pattern decoration */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl text-chalk/3 font-serif whitespace-nowrap">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl sm:text-6xl md:text-9xl text-chalk/3 font-serif whitespace-nowrap">
         ಸೇವೆ • ಶಿಕ್ಷಣ • ಸಮುದಾಯ
       </div>
 

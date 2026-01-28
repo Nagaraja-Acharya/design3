@@ -20,6 +20,10 @@ const focusAreas = [
         description: "Comprehensive support for government Kannada schools including infrastructure, learning materials, and operational assistance.",
       },
       {
+        title: "Smart Classroom Initiative",
+        description: "Technology-enabled learning with ₹1 lakh TV panels at Keradi, Bellala, and Murutu schools, reducing teacher workload and modernizing education.",
+      },
+      {
         title: "Teacher Training",
         description: "Skill development workshops for teachers focusing on modern pedagogy while respecting traditional values.",
       },
@@ -29,7 +33,7 @@ const focusAreas = [
       },
       {
         title: "Scholarship Program",
-        description: "Financial support for meritorious students from rural backgrounds to pursue higher education.",
+        description: "Financial support for 25+ PU students and meritorious students from rural backgrounds to pursue higher education.",
       },
     ],
     image: childrenLearning,
@@ -226,10 +230,10 @@ export default function FocusAreas() {
                           area.color === 'sun-gold' ? 'text-sun-gold' :
                           area.color === 'terracotta' ? 'text-terracotta' : 'text-forest'
                         }`}>
-                          {index === 0 ? '100+' : index === 1 ? '50+' : '500+'}
+                          {index === 0 ? '3' : index === 1 ? '50+' : '500+'}
                         </span>
                         <span className="text-muted-foreground text-sm">
-                          {index === 0 ? 'Teachers' : index === 1 ? 'Programs' : 'Families'}
+                          {index === 0 ? 'Smart Classes' : index === 1 ? 'Programs' : 'Families'}
                         </span>
                       </div>
                     </div>

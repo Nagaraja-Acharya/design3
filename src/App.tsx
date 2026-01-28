@@ -8,6 +8,7 @@ import About from "./pages/About";
 import KeradiStory from "./pages/KeradiStory";
 import FocusAreas from "./pages/FocusAreas";
 import Impact from "./pages/Impact";
+import Gallery from "./pages/Gallery";
 import News from "./pages/News";
 import GetInvolved from "./pages/GetInvolved";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/keradi-story" element={<KeradiStory />} />
           <Route path="/focus-areas" element={<FocusAreas />} />
           <Route path="/impact" element={<Impact />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/news" element={<News />} />
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/contact" element={<Contact />} />

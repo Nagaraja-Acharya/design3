@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, MapPin, Users, BookOpen, Users as Community } from "lucide-react";
 import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
-import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
+import childrenLearning from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_4.jpg";
 
 const storyChapters = [
   {
@@ -124,7 +124,7 @@ export default function KeradiStory() {
             <img
               src={childrenLearning}
               alt="Children learning together at Keradi School"
-              className="w-full h-[400px] object-cover"
+              className="w-full h-[500px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/60 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">

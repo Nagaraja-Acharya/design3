@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    value: "Kundapura, Udupi District, Karnataka, India",
+    value: "No 290/2, 2nd floor, Lakshmi Arcade, Siddaiah road, Bangalore 560027",
   },
   {
     icon: Clock,
@@ -182,19 +182,6 @@ export default function Contact() {
                       <social.icon className="w-5 h-5 text-foreground group-hover:text-primary-foreground transition-colors" />
                     </a>
                   ))}
-                </div>
-              </div>
-
-              {/* Map placeholder */}
-              <div className="mt-12 bg-secondary rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-3" />
-                  <p className="text-muted-foreground">
-                    Coastal Karnataka, India
-                  </p>
-                  <p className="text-sm text-muted-foreground/70">
-                    Serving communities across Udupi, Dakshina Kannada & Uttara Kannada
-                  </p>
                 </div>
               </div>
             </motion.div>

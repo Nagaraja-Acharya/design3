@@ -109,7 +109,7 @@ export default function KeradiStoryPreview() {
 
       {/* Kannada text decoration */}
       <div className="absolute bottom-8 left-8 text-6xl text-chalk/5 font-serif">
-        ಕೆರಡಿ
+        ಕೆರಾಡಿ
       </div>
     </section>
   );

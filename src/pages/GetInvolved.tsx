@@ -261,28 +261,6 @@ export default function GetInvolved() {
           </div>
         </div>
       </section>
-
-      {/* Contact CTA */}
-      <section className="py-16 bg-earth-brown text-chalk text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="font-serif text-2xl md:text-3xl font-semibold mb-4">
-            Have Questions?
-          </h2>
-          <p className="text-chalk/80 mb-6">
-            We're here to help. Reach out to us anytime.
-          </p>
-          <Button
-            asChild
-            variant="outline"
-            className="border-chalk text-chalk hover:bg-chalk hover:text-earth-brown"
-          >
-            <Link to="/contact">
-              Contact Us
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Link>
-          </Button>
-        </div>
-      </section>
     </Layout>
   );
 }

@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/keradi-story", label: "Keradi Story" },
   { href: "/focus-areas", label: "Focus Areas" },
   { href: "/impact", label: "Impact" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/news", label: "News" },
   { href: "/get-involved", label: "Get Involved" },
   { href: "/contact", label: "Contact" },

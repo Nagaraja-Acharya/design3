@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { HandHeart, Eye, Target, Star } from "lucide-react";
-import rsFoundationImage from "@/assets/RSFoundation.jpg";
+import rsFoundationImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_9.jpg";
 
 const values = [
   {
@@ -56,8 +56,13 @@ const timeline = [
   },
   {
     year: "2024",
-    title: "Growing Impact",
-    description: "15 schools supported, scholarship programs launched, and teacher training initiatives begun.",
+    title: "Smart Education Initiative",
+    description: "Smart classes established in Keradi, Bellala, and Murutu schools. Scholarship program launched for 25+ PU students. Major infrastructure development at Government Higher Primary School, Keradi.",
+  },
+  {
+    year: "2025",
+    title: "Comprehensive Development",
+    description: "Solar power systems, smart classrooms with ₹1 lakh TV panels, educational tours, and technology-based learning implemented across multiple schools.",
   },
 ];
 
@@ -156,12 +161,9 @@ export default function About() {
             <div className="relative inline-block mb-8">
               <img 
                 src={rsFoundationImage} 
-                alt="Rishab Shetty"
-                className="w-40 h-40 rounded-full object-cover shadow-warm"
+                alt="Rishab Shetty with family at Keradi School"
+                className="w-80 h-60 rounded-2xl object-cover shadow-warm border-4 border-sun-gold/20"
               />
-              <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-forest rounded-full flex items-center justify-center">
-                <span className="text-chalk text-xl">🎬</span>
-              </div>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -260,6 +262,127 @@ export default function About() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Keradi School Transformation */}
+      <section className="py-24 bg-chalk">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <span className="inline-block text-sm font-medium tracking-wider uppercase text-sun-gold mb-4">
+              Flagship Project
+            </span>
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-earth-brown mb-6">
+              Government Higher Primary School, Keradi
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              A comprehensive transformation story showcasing what's possible when community, 
+              commitment, and resources come together for education.
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            {/* 2024-25 Academic Year */}
+            <div className="bg-earth-brown text-chalk rounded-2xl p-8 mb-8">
+              <div className="text-center mb-8">
+                <h3 className="font-serif text-2xl font-semibold text-sun-gold-light mb-2">
+                  Academic Year 2024–25 Achievements
+                </h3>
+                <p className="text-chalk/80">
+                  Complete adoption and transformation of the school infrastructure and learning environment
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="bg-chalk/10 rounded-xl p-6">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Infrastructure Development</h4>
+                  <ul className="space-y-2 text-sm text-chalk/80">
+                    <li>• School playground leveled with steps constructed</li>
+                    <li>• Complete building painting</li>
+                    <li>• Tiles laid in two classrooms</li>
+                    <li>• Well-equipped toilet facility constructed</li>
+                  </ul>
+                </div>
+
+                <div className="bg-chalk/10 rounded-xl p-6">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Transportation & Safety</h4>
+                  <ul className="space-y-2 text-sm text-chalk/80">
+                    <li>• Two school vehicles provided with drivers</li>
+                    <li>• Complete maintenance coverage</li>
+                    <li>• Safe transport for distant area students</li>
+                    <li>• ID cards distributed to all students</li>
+                  </ul>
+                </div>
+
+                <div className="bg-chalk/10 rounded-xl p-6">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Human Resources</h4>
+                  <ul className="space-y-2 text-sm text-chalk/80">
+                    <li>• Five guest teachers appointed</li>
+                    <li>• One helper (Aya) for school cleanliness</li>
+                    <li>• Boards provided for all classrooms</li>
+                    <li>• Two school name boards donated</li>
+                  </ul>
+                </div>
+
+                <div className="bg-chalk/10 rounded-xl p-6">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Technology & Learning</h4>
+                  <ul className="space-y-2 text-sm text-chalk/80">
+                    <li>• Laboratory kit worth ₹18,000 provided</li>
+                    <li>• Solar power system (₹4 lakh) installed</li>
+                    <li>• Computer repairs completed</li>
+                    <li>• Safe drinking water unit installed</li>
+                  </ul>
+                </div>
+
+                <div className="bg-chalk/10 rounded-xl p-6">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Student Welfare</h4>
+                  <ul className="space-y-2 text-sm text-chalk/80">
+                    <li>• Uniforms for LKG and UKG students (2 years)</li>
+                    <li>• Educational trips funding (₹25,000)</li>
+                    <li>• Borewell construction with pump installation</li>
+                  </ul>
+                </div>
+
+                <div className="bg-sun-gold/20 rounded-xl p-6 border border-sun-gold/30">
+                  <h4 className="font-semibold text-sun-gold-light mb-3">Smart Class Revolution</h4>
+                  <div className="text-center">
+                    <div className="text-2xl font-serif font-bold text-sun-gold-light mb-2">₹1,00,000+</div>
+                    <p className="text-sm text-chalk/80">TV panel for modern, technology-based education reducing teacher workload</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Impact Summary */}
+            <div className="bg-sun-gold/10 rounded-2xl p-8 border border-sun-gold/30">
+              <h3 className="font-serif text-2xl font-semibold text-earth-brown text-center mb-6">
+                Transformational Impact
+              </h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-sun-gold/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <span className="text-2xl font-serif font-bold text-sun-gold">25+</span>
+                  </div>
+                  <div className="font-medium text-earth-brown mb-1">Major Initiatives</div>
+                  <div className="text-sm text-muted-foreground">Comprehensive development projects</div>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-sun-gold/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <span className="text-2xl font-serif font-bold text-sun-gold">100+</span>
+                  </div>
+                  <div className="font-medium text-earth-brown mb-1">Students Benefited</div>
+                  <div className="text-sm text-muted-foreground">Direct educational impact</div>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-sun-gold/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <span className="text-2xl font-serif font-bold text-sun-gold">₹6L+</span>
+                  </div>
+                  <div className="font-medium text-earth-brown mb-1">Investment</div>
+                  <div className="text-sm text-muted-foreground">Total resources deployed</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
