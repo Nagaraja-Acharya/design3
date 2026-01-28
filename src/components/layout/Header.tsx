@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/Full logo merged.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -43,18 +44,12 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gradient-sunset flex items-center justify-center shadow-warm group-hover:scale-105 transition-transform">
-            <span className="text-primary-foreground font-serif font-bold text-lg md:text-xl">R</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-serif text-lg md:text-xl font-semibold text-earth-brown leading-tight">
-              Rishab Shetty
-            </span>
-            <span className="text-xs text-muted-foreground tracking-wider uppercase">
-              Foundation
-            </span>
-          </div>
+        <Link to="/" className="flex items-center group">
+          <img
+            src={logo}
+            alt="Rishab Shetty Foundation"
+            className="h-12 md:h-14 w-auto rounded-lg group-hover:scale-105 transition-transform"
+          />
         </Link>
 
         {/* Desktop Navigation */}
