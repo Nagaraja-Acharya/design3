@@ -88,6 +88,10 @@ export default function KeradiStoryPreview() {
                 <span className="text-chalk/70 text-sm">New Teachers</span>
               </div>
               <div>
+                <span className="block text-4xl font-serif font-bold text-sun-gold">₹2L</span>
+                <span className="text-chalk/70 text-sm">Scholarships Given</span>
+              </div>
+              <div>
                 <span className="block text-4xl font-serif font-bold text-sun-gold">100%</span>
                 <span className="text-chalk/70 text-sm">Community Support</span>
               </div>
