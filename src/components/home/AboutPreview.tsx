@@ -30,16 +30,17 @@ export default function AboutPreview() {
             
             <div className="mt-8 space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                The Rishab Shetty Foundation was born from a deep belief that 
-                <span className="text-earth-brown font-medium"> language is identity</span>, 
-                and education is the bridge to opportunity. Rooted in the rich soil of 
-                Karnataka's villages, we work to preserve Kannada medium education while 
-                empowering children to dream beyond their horizons.
+                The Rishab Shetty Foundation was born from a strong belief that
+                <span className="text-earth-brown font-medium"> language is identity</span>,
+                and education is the bridge to opportunity. Rooted in Karnataka's
+                villages, we work to protect and strengthen Kannada medium education,
+                support children's welfare, and build stronger rural communities across Karnataka.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                What started as a personal commitment has grown into a movement — 
-                touching schools, families, and entire communities across rural Karnataka.
+                What began as a personal commitment has now grown into a meaningful movement,
+                reaching government schools, families, and local communities through education,
+                cultural preservation, and community development.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-4">
@@ -76,9 +77,8 @@ export default function AboutPreview() {
               </div>
               
               <blockquote className="font-serif text-xl md:text-2xl leading-relaxed mb-6 pt-4">
-                When I enrolled my own children in a Kannada medium school in Keradi, 
-                it wasn't just a decision — it was a statement. That our language, 
-                our roots, our culture are worth preserving.
+                Cinema can inspire change, but real change happens in classrooms,
+                in villages, and in the hearts of our children. That is where we must invest.
               </blockquote>
               
               <footer className="flex items-center gap-4">

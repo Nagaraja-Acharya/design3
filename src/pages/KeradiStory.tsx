@@ -10,20 +10,20 @@ import childrenLearning from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂ�
 
 const storyChapters = [
   {
-    title: "A School on the Edge",
-    content: "In the serene village of Keradi, nestled among the lush green hills of coastal Karnataka, stood a small government school. For decades, it had been the heart of the community — where children learned to read, write, and dream. But times were changing. Enrollment was dwindling. Parents, lured by the promise of English medium education, were sending their children to distant towns. The school that had nurtured generations was slowly fading away.",
+    title: "A School at a Crossroads",
+    content: "In the quiet village of Keradi, a small government school in Karnataka stood at a crossroads. With declining enrollment and fading hope, it was close to closure.",
   },
   {
-    title: "A Father's Choice",
-    content: "Then came a moment that would change everything. Rishab Shetty, already a celebrated name in Karnataka's film industry, made an unexpected decision. Rather than enrolling his children in a prestigious private school, he chose Keradi's government Kannada medium school. This wasn't just a personal choice — it was a statement, a commitment to the values he held dear.",
+    title: "A Decision That Changed Everything",
+    content: "Then came a decision that changed everything. Rishab Shetty did not just support the school — he adopted the Government Higher Primary School in Keradi, sending a strong message of trust in Kannada medium government school education.",
   },
   {
-    title: "From One Family to Many",
-    content: "The news spread through the village like morning sunlight. If one of Karnataka's most successful artists trusted this school for his own children, perhaps there was something worth believing in. One by one, families began reconsidering. Parents who had left returned. New families enrolled. The classrooms that had grown silent began to fill with laughter once again.",
+    title: "A Symbol of What Is Possible",
+    content: "Today, Keradi Government School stands as a symbol of what is possible when belief, action, and community support come together. It reflects the larger mission of the foundation — to strengthen schools, inspire confidence in public education, and create lasting impact in rural communities.",
   },
   {
-    title: "Rebuilding Together",
-    content: "But belief alone wasn't enough. The school needed infrastructure, resources, trained teachers. The foundation stepped in — renovating classrooms, providing learning materials, organizing teacher training programs. The community rallied together, contributing labor, land, and most importantly, their trust.",
+    title: "A Practical Model for Change",
+    content: "This transformation is more than a story about one school. It represents a practical model of how public education can be strengthened when local leadership, cultural responsibility, and long-term commitment work together.",
   },
 ];
 
@@ -64,8 +64,8 @@ export default function KeradiStory() {
               <span className="block text-sun-gold-light">Keradi School</span>
             </h1>
             <p className="text-xl text-chalk/90 max-w-2xl mx-auto leading-relaxed">
-              How a simple decision by one father sparked a revival that saved 
-              a village school and became a beacon of hope for Kannada education.
+              How Rishab Shetty adopted the Government Higher Primary School in Keradi,
+              sending a strong message of trust in Kannada medium government school education.
             </p>
           </motion.div>
         </div>

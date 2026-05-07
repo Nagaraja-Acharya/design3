@@ -64,17 +64,17 @@ export default function KeradiStoryPreview() {
 
             <div className="space-y-5 text-chalk/85 text-lg leading-relaxed">
               <p>
-                In the quiet village of Keradi, a small government school stood at a crossroads. 
-                With dwindling enrollment and fading hope, it was on the verge of closure.
+                In the quiet village of Keradi, a small government school in Karnataka stood at a crossroads.
+                With declining enrollment and fading hope, it was close to closure.
               </p>
               <p>
-                Then came a choice that would change everything. Rishab Shetty didn't just 
-                support the school — he enrolled his own children there, sending a powerful 
-                message about faith in Kannada medium education.
+                Then came a decision that changed everything. Rishab Shetty did not just
+                support the school — he adopted the Government Higher Primary School in Keradi,
+                sending a strong message of trust in Kannada medium government school education.
               </p>
               <p className="font-medium text-chalk">
-                Today, Keradi School stands as a beacon of what's possible when belief 
-                meets action.
+                Today, Keradi Government School stands as a symbol of what is possible when
+                belief, action, and community support come together.
               </p>
             </div>
 

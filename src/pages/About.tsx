@@ -101,9 +101,9 @@ export default function About() {
               <span className="text-sun-gold"> and Wings</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Born from a deep love for Karnataka's culture and an unwavering belief 
-              in the power of education, the Rishab Shetty Foundation works to preserve 
-              our linguistic heritage while empowering future generations.
+              Born from a deep love for Karnataka's culture and a strong belief in the power of education,
+              the Rishab Shetty Foundation works to preserve Kannada language heritage while empowering
+              future generations through school development and community support.
             </p>
           </motion.div>
         </div>
@@ -125,9 +125,9 @@ export default function About() {
                 Nurturing Minds, Preserving Heritage
               </h2>
               <p className="text-chalk/85 leading-relaxed text-lg">
-                To strengthen Kannada medium education in rural Karnataka by supporting 
-                government schools, uplifting communities, and ensuring every child 
-                has access to quality education that honors their cultural identity.
+                To strengthen Kannada medium education in rural Karnataka by supporting
+                government schools, improving learning conditions, uplifting communities,
+                and ensuring every child has access to quality education that respects cultural identity.
               </p>
             </div>
 
@@ -138,9 +138,9 @@ export default function About() {
                 A Karnataka Where Language Thrives
               </h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                We envision a future where Kannada medium schools are centers of 
-                excellence, where children are proud of their mother tongue, and 
-                where rural communities thrive through education and opportunity.
+                We envision a future where Kannada medium schools become centers of
+                excellence, where children take pride in their mother tongue, and
+                where rural communities grow through education, opportunity, and cultural preservation.
               </p>
             </div>
           </div>
@@ -167,19 +167,18 @@ export default function About() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Actor, filmmaker, and cultural advocate, Rishab Shetty is deeply connected 
-              to Karnataka's roots. His journey from coastal Karnataka's villages to 
-              becoming one of Indian cinema's most celebrated storytellers has never 
-              distanced him from his origins.
+              Actor, filmmaker, and cultural advocate, Rishab Shetty remains deeply connected
+              to Karnataka's roots. His journey from the villages of coastal Karnataka to
+              becoming one of Indian cinema's most celebrated storytellers has never taken him away from his origin.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              The foundation reflects his personal conviction — demonstrated when he 
-              chose to enroll his own children in a Kannada medium government school 
-              in Keradi, walking the talk on preserving linguistic heritage.
+              The foundation reflects his personal conviction, shown through his active support
+              for a Kannada medium government school in Keradi, proving his belief in public
+              education and linguistic heritage.
             </p>
             <blockquote className="text-xl font-serif italic text-earth-brown border-l-4 border-sun-gold pl-6 text-left mt-10">
-              "Cinema can inspire change, but real change happens in classrooms, 
-              in villages, in the hearts of our children. That's where we must invest."
+              "Cinema can inspire change, but real change happens in classrooms,
+              in villages, and in the hearts of our children. That is where we must invest."
             </blockquote>
           </div>
         </div>

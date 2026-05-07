@@ -56,8 +56,7 @@ export default function HeroSection() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-lg md:text-xl text-chalk/90 mb-10 leading-relaxed max-w-xl"
           >
-            From the heart of Karnataka's villages, we're nurturing education, 
-            preserving heritage, and building futures — one child, one community at a time.
+            From the heart of Karnataka's villages, the Rishab Shetty Foundation is strengthening Kannada medium education, preserving cultural heritage, and building brighter futures — one child, one school, and one community at a time.
           </motion.p>
 
           {/* CTA Buttons */}

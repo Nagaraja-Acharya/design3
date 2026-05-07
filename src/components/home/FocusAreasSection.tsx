@@ -10,21 +10,21 @@ const focusAreas = [
   {
     icon: BookOpen,
     title: "Kannada Medium Education",
-    description: "Preserving our mother tongue by supporting government schools, improving infrastructure, and providing quality education in Kannada.",
+    description: "We believe that learning in Kannada helps children understand concepts more naturally, participate with confidence, and remain connected to their cultural roots. Our support is centered on strengthening government schools so that children in rural Karnataka can access quality learning in a familiar language.",
     color: "sun-gold",
     link: "/focus-areas#education",
   },
   {
     icon: Users,
     title: "Children's Welfare",
-    description: "Ensuring every child has access to nutrition, healthcare, learning resources, and a safe environment to grow and thrive.",
+    description: "A child's education becomes stronger when health, safety, and emotional well-being are also protected. Through children's welfare initiatives, we aim to create school environments where students feel cared for, supported, and encouraged to learn without barriers.",
     color: "terracotta",
     link: "/focus-areas#welfare",
   },
   {
     icon: Users,
     title: "Community Development",
-    description: "Empowering rural communities through sustainable initiatives, skill development, and cultural preservation programs.",
+    description: "Education creates its greatest impact when families, teachers, and communities work together. Our approach encourages parent involvement, school awareness, cultural pride, and local support systems that help children thrive both inside and outside the classroom.",
     color: "forest",
     link: "/focus-areas#community",
   },
@@ -46,9 +46,9 @@ export default function FocusAreasSection() {
         }`}
       >
         <SectionHeading
-          eyebrow="What We Do"
-          title="Rooted in Purpose"
-          description="Our work spans three interconnected pillars — each strengthening the other to create lasting change."
+          eyebrow="Our Purpose"
+          title="Where Every Step Counts"
+          description="The Rishab Shetty Foundation was born from a strong belief that language is identity and education is the bridge to opportunity. Rooted in Karnataka's villages, we work to protect and strengthen Kannada medium education, support children's welfare, and build stronger rural communities."
         />
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
